@@ -1,0 +1,28 @@
+backend:
+  name: github
+  branch: master
+  repo: Madgeniusblink/gatsby-v2-blog-boilerplate
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "team"
+    label: "Team"
+    folder: "src/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Team Member", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
+  - name: "blog"
+    label: "Blogs"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
