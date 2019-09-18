@@ -3,6 +3,7 @@ slug: "/first-post"
 title: "The first post"
 description: "The best first post ever"
 date: "2019-09-15"
+image: "" 
 ---
 
 # The new post in markdown for airbnb cleaning services

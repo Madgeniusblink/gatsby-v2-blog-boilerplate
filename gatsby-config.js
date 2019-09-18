@@ -3,8 +3,10 @@ module.exports = {
     title: `Airbnb Cleaning Services`,
     description: `Airbnb cleaning services on demand`,
     author: `@airbnbcleaningservices`,
+    siteUrl: `https://practical-heyrovsky-1e41c6.netlify.com/`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
@@ -26,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `MadGeniusBlinkProduction`,
+        short_name: `MGBP`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -39,6 +41,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
   ],
 }

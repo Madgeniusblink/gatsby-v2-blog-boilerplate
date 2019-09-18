@@ -3,6 +3,7 @@ slug: "/second-post"
 title: "The second post"
 description: "The best second post ever"
 date: "2019-09-16"
+image: "" 
 ---
 
 # The second post in markdown for airbnb cleaning services

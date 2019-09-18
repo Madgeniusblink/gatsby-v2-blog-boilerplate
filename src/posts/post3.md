@@ -3,6 +3,7 @@ slug: "/third-post"
 title: "The third post"
 description: "The best third post ever"
 date: "2019-09-17"
+image: "" 
 ---
 
 # The three post in markdown for airbnb cleaning services
